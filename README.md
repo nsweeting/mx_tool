@@ -15,10 +15,10 @@ end
 ## Usage
 
 ```elixir
-MxTool.query("google.com") => {:ok, %MxTool.Response{
+MxTool.lookup("google.com") => {:ok, %MxTool.Response{
                                       lowest_record: "aspmx.l.google.com",
                                       records: [{40, "alt3.aspmx.l.google.com"}, {30, "alt2.aspmx.l.google.com"},
                                                 {50, "alt4.aspmx.l.google.com"}, {10, "aspmx.l.google.com"},
                                                 {20, "alt1.aspmx.l.google.com"}]}}
-MxTool.query("ndndndsmfhsjrjhjsjhf.com") => {:error, :no_records}
+MxTool.lookup("ndndndsmfhsjrjhjsjhf.com") => {:error, :no_records}
 ```
