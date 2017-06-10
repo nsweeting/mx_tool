@@ -22,8 +22,3 @@ MxTool.query("google.com") => {:ok, %MxTool.Response{
                                                 {20, "alt1.aspmx.l.google.com"}]}}
 MxTool.query("ndndndsmfhsjrjhjsjhf.com") => {:error, :no_records}
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/mx_tool](https://hexdocs.pm/mx_tool).
-
